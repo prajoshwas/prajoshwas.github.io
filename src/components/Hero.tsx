@@ -82,7 +82,7 @@ export default function Hero() {
             {/* Profile image */}
             <div className="relative h-80 w-80 overflow-hidden rounded-2xl border border-white/10 bg-zinc-900">
               <img
-                src="/profpic.jpg"
+                src={`${import.meta.env.BASE_URL}profpic.jpg`}
                 alt="Joshua Mark Sugatan"
                 className="h-full w-full object-cover"
               />
