@@ -42,7 +42,7 @@ export const projects = [
       "HTML/CSS",
       "AI-assisted development",
     ],
-    type: "Fullstack",
+    type: "Full stack",
   },
   {
     title: "ML Wallet",

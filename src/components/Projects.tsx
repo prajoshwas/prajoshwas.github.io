@@ -15,7 +15,7 @@ export default function Projects() {
               key={project.title}
               className="group flex min-h-82.5 flex-col rounded-2xl border border-white/10 bg-white/[0.02] p-6 transition duration-300 hover:-translate-y-1 hover:border-teal-400/30 hover:bg-white/[0.04]">
               <div className="flex items-start justify-between">
-                <span className="rounded-full border border-white/10 px-3 py-1 font-mono text-[10px] uppercase tracking-wider text-zinc-500">
+                <span className="rounded-full border border-white/10 px-3 py-1 font-mono text-[12px] uppercase tracking-wider text-zinc-500">
                   {project.type}
                 </span>
 
