@@ -18,6 +18,21 @@ export const technologies = [
 
 export const projects = [
   {
+    title: "BPI Personal Loan Application",
+    description:
+      "Worked on the backend of the BPI Personal Loan Application, which is a web application that allows users to apply for personal loans online.",
+    technologies: [
+      "Java",
+      "Springboot",
+      "IBM APIConnect",
+      "MongoDB",
+      "IBM Db2",
+      "REST API",
+    ],
+    type: "Backend",
+    link: "https://personalloan.bpi.com.ph/",
+  },
+  {
     title: "ML Wallet",
     description:
       "An e-wallet mobile application created similar to GCash, and Paymaya.",
