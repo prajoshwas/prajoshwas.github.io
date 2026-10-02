@@ -33,6 +33,18 @@ export const projects = [
     link: "https://personalloan.bpi.com.ph/",
   },
   {
+    title: "Advanced Health System Coop (AHSC) Clinical Results Generator",
+    description:
+      "A desktop application that exports clinical results to a microsoft word or pdf format.",
+    technologies: [
+      "ElectronJS",
+      "NodeJS",
+      "HTML/CSS",
+      "AI-assisted development",
+    ],
+    type: "Fullstack",
+  },
+  {
     title: "ML Wallet",
     description:
       "An e-wallet mobile application created similar to GCash, and Paymaya.",
