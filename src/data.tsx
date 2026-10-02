@@ -18,7 +18,7 @@ export const technologies = [
 
 export const projects = [
   {
-    title: "BPI Personal Loan Application",
+    title: "BPI Personal Loan",
     description:
       "Worked on the backend of the BPI Personal Loan Application, which is a web application that allows users to apply for personal loans online.",
     technologies: [
