@@ -19,11 +19,13 @@ export default function Projects() {
                   {project.type}
                 </span>
 
-                <FiArrowUpRight
-                  size={19}
-                  className="text-zinc-600 transition group-hover:text-teal-600 cursor-pointer hover:size-8"
-                  onClick={() => window.open(project.link, "_blank")}
-                />
+                {project.link && (
+                  <FiArrowUpRight
+                    size={19}
+                    className="text-zinc-600 transition group-hover:text-teal-600 cursor-pointer hover:size-8"
+                    onClick={() => window.open(project.link, "_blank")}
+                  />
+                )}
               </div>
 
               <h3 className="mt-10 text-xl font-semibold text-white">
@@ -38,7 +40,7 @@ export default function Projects() {
                 {project.technologies.map((technology) => (
                   <span
                     key={technology}
-                    className="rounded-md bg-white/5 px-2 py-1 font-mono text-[10px] text-zinc-500">
+                    className="rounded-md bg-white/5 px-2 py-1 font-mono text-[12px] text-zinc-500">
                     {technology}
                   </span>
                 ))}
